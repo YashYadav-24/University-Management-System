@@ -30,7 +30,7 @@ public class ExaminationDetails extends JFrame implements ActionListener {
         add(search);
         
         submit = new JButton("Result");
-        submit.setBounds(300, 90, 120, 30);
+        submit.setBounds(295, 90, 120, 35); // Increased the height of the button
         submit.setBackground(Color.BLACK);
         submit.setForeground(Color.WHITE);
         submit.addActionListener(this);
@@ -38,7 +38,7 @@ public class ExaminationDetails extends JFrame implements ActionListener {
         add(submit);
         
         cancel = new JButton("Back");
-        cancel.setBounds(440, 90, 120, 30);
+        cancel.setBounds(430, 90, 120, 35); // Increased the height of the button
         cancel.setBackground(Color.BLACK);
         cancel.setForeground(Color.WHITE);
         cancel.addActionListener(this);
